@@ -1,0 +1,137 @@
+
+body.tudo {
+    background-color: #f3efe7;
+    color: #3e2f21;
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.conteudo-topo {
+    background-color: #d3b58f;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #a97451;
+
+}
+
+.conteudo-topo h1 {
+    margin-bottom: 10px;
+}
+.conteudo-principal {
+    padding: 20px;
+}
+
+.bebida {
+    background-color: #ede0d4;
+    border-left: 5px solid #6f4e37;
+    margin-bottom: 25px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.bebida:nth-child(2) {
+    border-left: 5px solid #a97451;
+}
+
+.bebida:nth-child(3) {
+    border-left: 5px solid #8b5e3c;
+}
+
+.bebida:nth-child(4) {
+    border-left: 5px solid #5c4033;
+}
+
+.bebida img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 15px auto;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #a97451;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #ffe5b4;
+}
+/*inicio da confiraçao da pag contato*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f4f1ec;
+    color: #333;
+    padding: 40px;
+    line-height: 1.6;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #4b2e2e;
+    margin-bottom: 30px;
+  }
+  
+  .foto {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .foto img {
+    border-radius: 50%;
+    border: 3px solid #a9745f;
+  }
+  
+  p {
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+    font-size: 1.1em;
+    text-align: center;
+  }
+  
+  .redes {
+    text-align: center;
+  }
+  
+  .redes h2 {
+    color: #6b4c3b;
+    margin-bottom: 15px;
+  }
+  
+  .redes ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .redes li {
+    margin: 10px 0;
+  }
+  
+  .redes a {
+    text-decoration: none;
+    color: #5c3d2e;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .redes a:hover {
+    color: #a9745f;
+  }
+  
