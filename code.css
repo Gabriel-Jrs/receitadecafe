@@ -1,4 +1,3 @@
-
 body.tudo {
     background-color: #f3efe7;
     color: #3e2f21;
@@ -7,10 +6,17 @@ body.tudo {
     padding: 0;
     line-height: 1.6;
 }
+
+h1 {
+    text-align: center;
+    color: #4b2e2e;
+    margin-bottom: 30px;
+}
+
 h3 {
-  font-size: 23px;
-  color: #4b2e2e;
-  margin-bottom: 10px;
+    font-size: 23px;
+    color: #4b2e2e;
+    margin-bottom: 10px;
 }
 
 .conteudo-topo {
@@ -18,12 +24,12 @@ h3 {
     padding: 20px;
     text-align: center;
     border-bottom: 4px solid #a97451;
-
 }
 
 .conteudo-topo h1 {
     margin-bottom: 10px;
 }
+
 .conteudo-principal {
     padding: 20px;
 }
@@ -72,71 +78,64 @@ footer a {
 footer a:hover {
     color: #ffe5b4;
 }
-/*inicio da confiraçao da pag contato*/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  body {
+}
+
+body {
     font-family: 'Lato', sans-serif;
     background-color: #f4f1ec;
     color: #333;
     padding: 40px;
     line-height: 1.6;
-  }
-  
-  h1 {
-    text-align: center;
-    color: #4b2e2e;
-    margin-bottom: 30px;
-  }
-  
-  .foto {
+}
+
+.foto {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
-  }
-  
-  .foto img {
+}
+
+.foto img {
     border-radius: 50%;
     border: 3px solid #a9745f;
-  }
-  
-  p {
+}
+
+p {
     max-width: 600px;
     margin: 0 auto 30px auto;
     font-size: 1.1em;
     text-align: center;
-  }
-  
-  .redes {
+}
+
+.redes {
     text-align: center;
-  }
-  
-  .redes h2 {
+}
+
+.redes h2 {
     color: #6b4c3b;
     margin-bottom: 15px;
-  }
-  
-  .redes ul {
+}
+
+.redes ul {
     list-style-type: none;
     padding: 0;
-  }
-  
-  .redes li {
+}
+
+.redes li {
     margin: 10px 0;
-  }
-  
-  .redes a {
+}
+
+.redes a {
     text-decoration: none;
     color: #5c3d2e;
     font-weight: bold;
     transition: color 0.3s ease;
-  }
-  
-  .redes a:hover {
+}
+
+.redes a:hover {
     color: #a9745f;
-  }
-  
+}
